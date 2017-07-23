@@ -1,86 +1,118 @@
 <!DOCTYPE html>
 <html>
-  <head>
+
+<head>
     <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="styles.css">
     <title></title>
-  </head>
-  <body>
+</head>
 
+<body>
 
     <header id="header">
-      <div id="nav">
-        <ul>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Portfolio</a></li>
-          <li><a href="#">Contact</a></li>
-          <li><a href="#">Social</a></li>
-        </ul>
-      </div>
+        <div id="nav">
+            <ul>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Social</a></li>
+            </ul>
+        </div>
     </header>
 
     <hr>
 
     <main role="main">
-      <section class="content">
-        <div class="centered">
-          <h3>I'm a freelance web developer working in the metro NY area</h3>
-          <p>My name is Nick and I am self taught web developer and student working on a computer science degree in New York City. I am also working on FreeCodeCamp's web development certificates. My interests include the MEAN stack, web design, and machine learning. Below are some of the recent projects I have been working on.</p>
-          <ul class="portfolio">
-            <li>
-              <span>
+        <section class="content">
+            <div class="centered">
+                <h3>I'm a freelance web developer working in the metro NY area</h3>
+                <p>My name is Nick and I am self taught web developer and student working on a computer science degree in New York City. I am also working on FreeCodeCamp's web development certificates. My interests include the MEAN stack, web design, and machine learning. Below are some of the recent projects I have been working on.</p>
+                <ul class="portfolio">
+                    <li>
+                        <span>
                 <a href="#"></a>
                 <img src="images/weatherapp.png" alt="">
               </span>
-              <p>
-                A simple weather app made with the OpenWeatherMap API that displays the user's current location, the current forecast, today's high/low temperature, a weather icon for the forecast, and both Fahrenheight and Celsius. Made for FreeCodeCamp's front-end program.
-              </p>
-            </li>
-            <li>
-              <span>
+                        <p>
+                            A simple weather app made with the OpenWeatherMap API that displays the user's current location, the current forecast, today's high/low temperature, a weather icon for the forecast, and both Fahrenheight and Celsius. Made for FreeCodeCamp's front-end program.
+                        </p>
+                    </li>
+                    <li>
+                        <span>
                 <a href="#"></a>
                 <img src="images/twitch.png" alt="">
               </span>
-              <p>
-                An app using the Twitch.tv JSON API to display a list of current Twitch streamers and whether or not their channel is currently online. I used JQuery to make the API call and display the name of the channel, basic information about what the channel is airing, the number of viewers and followers the channel has, and the channel's logo.
-              </p>
-            </li>
-            <li>
-              <span>
+                        <p>
+                            An app using the Twitch.tv JSON API to display a list of current Twitch streamers and whether or not their channel is currently online. I used JQuery to make the API call and display the name of the channel, basic information about what the channel is airing, the number of viewers and followers the channel has, and the channel's logo.
+                        </p>
+                    </li>
+                    <li>
+                        <span>
                 <a href="#"></a>
                 <img src="images/placeholder.png" alt="">
               </span>
-              <p>
-                This project uses the Wikipedia API to allow the user to search a term on Wikipedia and display the results on the current page.
-              </p>
-            </li>
-            <li>
-              <span>
+                        <p>
+                            This project uses the Wikipedia API to allow the user to search a term on Wikipedia and display the results on the current page.
+                        </p>
+                    </li>
+                    <li>
+                        <span>
                 <a href="#"></a>
                 <img src="images/placeholder.png" alt="">
               </span>
-              <p>
-                Bacon ipsum dolor amet pork loin sirloin ham brisket flank t-bone, turkey chicken cow drumstick burgdoggen ribeye kevin leberkas prosciutto. Picanha pork chop beef ribs drumstick, landjaeger swine strip steak biltong rump
-              </p>
-            </li>
-          </ul>
-        </div>
-      </section>
+                        <p>
+                            Bacon ipsum dolor amet pork loin sirloin ham brisket flank t-bone, turkey chicken cow drumstick burgdoggen ribeye kevin leberkas prosciutto. Picanha pork chop beef ribs drumstick, landjaeger swine strip steak biltong rump
+                        </p>
+                    </li>
+                </ul>
+
+                <section id="formSection">
+                    <h2>Contact</h2>
+                    <form method="post" action="#">
+                        <div class="contact-info-group">
+
+                            <label>
+                                <span>Name</span>
+                                <input type="text" name="name">
+                            </label>
+
+                            <label>
+                                <span>Your Email</span>
+                                <input type="email" name="mail">
+                            </label>
+
+                        </div>
+
+                        <label>
+                            <span>Tell me about your project</span>
+                            <textarea name="message"></textarea>
+                        </label>
+
+                        <div class="submit-wrap">
+                            <input type="submit" value="Send" id="formButton">
+                        </div>
+
+                    </form>
+                </section>
+
+            </div>
+        </section>
     </main>
 
     <footer id="footer">
-      <div class="grid-unit">
-        <span class="github">
+        <div class="grid-unit">
+            <span class="github">
           <a href="#">Github</a>
         </span>
-        <span class="linkedIn">
+            <span class="linkedIn">
           <a href="#">Linked In</a>
         </span>
-        <span class="github">
+            <span class="github">
           <a href="#">Github</a>
         </span>
-      </div>
+        </div>
     </footer>
 
-  </body>
+</body>
+
 </html>
