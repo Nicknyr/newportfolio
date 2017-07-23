@@ -1,0 +1,88 @@
+
+$primarycolor: #454552;
+$secondarycolor: #FF4242;
+$thirdcolor: #97EAD2;
+
+
+
+body {
+  margin: 0px;
+  padding: 0px;
+  font-size: 100%;
+  line-height: 1.7;
+
+}
+
+#header {
+  width: auto;
+  height: 10em;
+  background-color: $primarycolor;
+  margin: 0px;
+
+}
+
+#nav {
+  padding: 0;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+
+  ul {
+    padding-top: 7em;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    margin: 0;
+    display: block;
+  }
+
+  li {
+  display: inline;
+
+}
+
+  a {
+    text-decoration: none;
+    color: $secondarycolor;
+    font-size: 1.2em;
+    padding-right: .4em;
+    line-height: 1.5;
+    text-transform: uppercase;
+  }
+}
+
+.centered {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.7;
+}
+
+h3 {
+  line-height: 1.25em;
+  font-size: 1.667em;
+  margin-bottom: 0.25em;
+}
+
+p {
+  line-height: 1.7;
+  margin-bottom: 2em;
+}
+
+.portfolio {
+  display: block;
+  border-bottom-color: rgba(0, 0, 0, 0.2);
+  border-bottom-style: solid;
+  margin-bottom: 4%;
+  list-style-image: none;
+  list-style-type: none;
+
+  li {
+    border-top-color: rgba(0, 0, 0, 0.2);
+    border-top-style: solid;
+    display: list-item;
+    padding-bottom: 4%;
+    padding-top: 4%;
+    text-align: left;
+  }
+}
