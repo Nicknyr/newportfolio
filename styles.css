@@ -1,13 +1,25 @@
+@import url("https://fonts.googleapis.com/css?family=Russo+One");
+@import url("https://fonts.googleapis.com/css?family=Fira+Sans+Condensed");
 body {
   margin: 0px;
   padding: 0px;
   font-size: 100%;
-  line-height: 1.7; }
+  line-height: 1.7;
+  font-family: 'Fira Sans Condensed', sans-serif; }
+
+/*h1, h2, h3, h4, h5 {
+  font-size: 1.667em;
+  line-height: 1.25em;
+  margin-bottom: .025em;
+  font-weight: normal;
+  font-family: 'Fira Sans Condensed', sans-serif;
+}*/
+p {
+  font-size: 1.8em; }
 
 #header {
   width: auto;
   height: 10em;
-  background-color: #454552;
   margin: 0px; }
 
 #nav {
@@ -16,7 +28,7 @@ body {
   margin-right: auto;
   text-align: center; }
   #nav ul {
-    padding-top: 7em;
+    padding-top: 8em;
     padding-left: 0;
     padding-right: 0;
     padding-bottom: 0;
@@ -30,13 +42,16 @@ body {
     font-size: 1.2em;
     padding-right: .4em;
     line-height: 1.5;
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    letter-spacing: 0.3744px;
+    font-family: 'Russo One', sans-serif; }
 
 .centered {
   width: 90%;
   margin-left: auto;
   margin-right: auto;
-  line-height: 1.7; }
+  line-height: 1.7;
+  display: block; }
 
 h3 {
   line-height: 1.25em;
@@ -45,7 +60,8 @@ h3 {
 
 p {
   line-height: 1.7;
-  margin-bottom: 2em; }
+  margin-bottom: 2em;
+  font-size: 2.8em; }
 
 .portfolio {
   display: block;
@@ -53,7 +69,10 @@ p {
   border-bottom-style: solid;
   margin-bottom: 4%;
   list-style-image: none;
-  list-style-type: none; }
+  list-style-type: none;
+  padding: 0px;
+  margin-left: 0px;
+  margin-right: 0px; }
   .portfolio li {
     border-top-color: rgba(0, 0, 0, 0.2);
     border-top-style: solid;
@@ -61,5 +80,24 @@ p {
     padding-bottom: 4%;
     padding-top: 4%;
     text-align: left; }
+    .portfolio li img {
+      margin: 0;
+      margin-right: 0; }
+  .portfolio img {
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto 2em;
+    margin: 0;
+    display: block;
+    border-image-repeat: stretch; }
+
+#footer {
+  border-top-color: rgba(0, 0, 0, 0.2);
+  border-top-style: solid;
+  padding-top: 1em;
+  text-transform: uppercase;
+  display: inline;
+  font-weight: 800; }
 
 /*# sourceMappingURL=styles.css.map */
