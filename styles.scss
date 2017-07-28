@@ -1,5 +1,8 @@
-@import url('https://fonts.googleapis.com/css?family=Russo+One');
-@import url('https://fonts.googleapis.com/css?family=Fira+Sans+Condensed');
+@import url('https://fonts.googleapis.com/css?family=Russo+One'); // 'Russo One', sans-serif;
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans+Condensed');  // 'Fira Sans Condensed', sans-serif;
+@import url('https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet');  // font-family: 'Oswald', sans-serif;
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');  // font-family: 'Open Sans', sans-serif;
+
 
 $primarycolor: #454552;
 $secondarycolor: #FF4242;
@@ -10,7 +13,7 @@ body {
   padding: 0px;
   font-size: 100%;
   line-height: 1.7;
-  font-family: 'Fira Sans Condensed', sans-serif;
+  font-family: 'Open Sans', sans-serif, medium;
 
 }
 
@@ -18,8 +21,8 @@ h1, h2, h3, h4, h5 {
   font-size: 1.667em;
   line-height: 1.25em;
   margin-bottom: .025em;
-  font-weight: normal;
-  font-family: 'Fira Sans Condensed', sans-serif;
+  font-family: 'Oswald', sans-serif, bold;
+
 }
 
 #header {
@@ -60,7 +63,7 @@ h1, h2, h3, h4, h5 {
     line-height: 1.5;
     text-transform: uppercase;
     letter-spacing: 0.3744px;
-    font-family: 'Russo One', sans-serif;
+    font-family: 'Oswald', sans-serif, bold;
   }
 }
 
@@ -144,7 +147,7 @@ p {
         line-height: 1.5;
         text-transform: uppercase;
         letter-spacing: 1px;
-        font-family: 'Russo One', sans-serif;
+        font-family: 'Oswald', sans-serif, bold;
         text-align: center;
       }
   }
@@ -257,6 +260,11 @@ p {
 /***************************************** Media Queries ***************************************************/
 
 @media screen and (min-width: 800px){
+  body {
+    font-family: 'Open Sans', sans-serif, medium;
+    font-size: 100%;
+
+  }
 
 // ************************************** Header ***********************************************************/
   #header {
@@ -293,8 +301,7 @@ p {
       line-height: 1.8;
       text-transform: uppercase;
       letter-spacing: .5px;//0.3744px;
-      font-family: 'Russo One', sans-serif;
-
+      font-family: 'Oswald', sans-serif, bold;
     }
 
 }
@@ -303,14 +310,31 @@ p {
 
 //**************************************************** Main section *************************************/
 .centered {
-  padding-top: 2em;
+  padding-top: 4em;
+  width: 75%;
+
+  #headshot {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-radius: 50%;
+  }
 
   h3 {
     text-align: center;
-    font-size: 2em;
+    font-size: 1.2em;
+    font-family: 'Oswald', sans-serif, bold;
+
   }
 
 
+}
+
+#intro {
+  width: 60%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 
@@ -339,9 +363,11 @@ p {
   }
 
     p {
-      width: 55%;
-      margin-left: 2%;
+      width: 68%;
+      margin-left: .5%;
       float: right;
+      margin-top: 0;
+  
     }
 
     span {
@@ -357,7 +383,7 @@ p {
 
 
     img {
-      width: auto;
+      width: 30%;
       max-width: 100%;
       height: auto;
       margin: 0 auto 2em;
@@ -379,6 +405,7 @@ p {
     border-width: thin;
     margin-bottom: 4%;
 
+
     h2 {
       text-decoration: none;
       color: $secondarycolor;
@@ -388,7 +415,7 @@ p {
       line-height: 2;
       text-transform: uppercase;
       letter-spacing: 1px;
-      font-family: 'Russo One', sans-serif;
+      font-family: 'Oswald', sans-serif, bold;
       text-align: center;
     }
 }
@@ -479,17 +506,20 @@ form span {
   font-weight: 800;
   text-align: center;
 
+
   p {
     font-size: 1em;
     text-align: center;
     margin-top: .5em;
-    margin-bottom: .5em;
+    margin-bottom: 1em;
   }
 
   span {
     text-align: center;
     padding: .2em;
+
   }
+
 }
 
 }
